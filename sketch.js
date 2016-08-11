@@ -35,6 +35,7 @@ var framerate = 15;
 
 function setup() {
   canvas = createCanvas(COLS * SIZE + 1, ROWS * SIZE + 1);
+  canvas.parent('sketch');
 
   // generate grid
   for (var j = 0; j < ROWS; ++j) {
